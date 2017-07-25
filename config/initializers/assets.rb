@@ -2,7 +2,7 @@
 
 # Version of your assets, change this if you want to expire all your assets.
 Rails.application.config.assets.version = '1.0'
-Dir.glob("#{Rails.root}/app/assets/images/**/").each do |path|
+Dir.glob("#{Rails.root}/assets/images/**/").each do |path|
   Rails.application.config.assets.paths << path
 end
 # Add additional assets to the asset load path
