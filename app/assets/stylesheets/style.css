@@ -1,8 +1,9 @@
-h1 {
+.landing {
   font-family: 'Raleway', sans-serif;
-
 }
-
-h2 {
-  font-family: 'Raleway', sans-serif;
+.center {
+    margin: auto;
+    width: 50%;
+    border: 3px solid;
+    padding: 10px;
 }
